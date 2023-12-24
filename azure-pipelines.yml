@@ -8,7 +8,7 @@ trigger:
 
 pool:
   #vmImage: 'windows-latest'
-  name: 'build agent A'
+  name: 'chuka'
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
