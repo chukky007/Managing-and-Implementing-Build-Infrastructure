@@ -7,8 +7,8 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
-
+  #vmImage: 'windows-latest'
+  name: 'chuka'
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
